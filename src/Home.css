@@ -1,0 +1,68 @@
+.mainn-divv {
+    height: 93vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataa-divv {
+    background-color: black;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Optional: adds rounded corners to the data-div */
+    padding: 20px; /* Optional: adds some space inside the data-div */
+    margin: 20px;
+    color: white;
+}
+
+.image-divv {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    background-image: url('./Estate Project/hero-image.png');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 200px; /* Applies border-radius to the top-left corner */
+    border-top-right-radius: 200px; /* Applies border-radius to the top-right corner */
+    border: 10px solid black;
+    margin: 20px;
+}
+.main-divv h1{
+    font-size: 50px;
+}
+.main-divv p{
+    font-size: 15px;
+}
+.live-location{
+    height: 50px;
+    width: 290px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+.live-location button{
+   margin: 5px 10px;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.reting{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+.pop {
+    font-size: 30px;
+}
+
+.p {
+    font-size: 12px;
+}

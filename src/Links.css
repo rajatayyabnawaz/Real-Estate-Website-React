@@ -1,0 +1,10 @@
+.mainn{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

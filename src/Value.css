@@ -1,0 +1,83 @@
+.main-divv {
+    height: 93vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.data-divv {
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-divv {
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border: 10px solid whitesmoke;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 200px 200px 0 0;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    width: 100%;
+    background: white;
+    color: white;
+    text-align: left;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.accordion-button.active {
+    background: white;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background: white;
+    color: #333;
+}
+
+.accordion-content.show {
+    display: block;
+}
+.data-divv h1{
+    color: blue;
+  
+}
+.data-divv h3{
+    color: green;
+}

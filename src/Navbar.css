@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-containerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: black;
+    color: white;
+    position: fixed; /* Keep navbar fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.left img {
+    height: 50px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right ul li {
+    margin: 0 30px; /* Space between items */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.contact-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+    .right {
+        display: none; /* Hide links by default */
+        width: 100%;
+        flex-direction: column; /* Stack links vertically */
+        text-align: center;
+        background-color: black;
+        position: absolute;
+        top: 70px; /* Adjust to be below the navbar */
+        left: 0;
+        transition: max-height 0.3s ease;
+        max-height: 0; /* Hide the links */
+        overflow: hidden;
+    }
+
+    .right.active {
+        display: flex; /* Show links when active */
+        max-height: 500px; /* Adjust height as needed */
+    }
+
+    .toggle-button {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+    }
+}

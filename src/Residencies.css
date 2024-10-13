@@ -1,0 +1,95 @@
+.r-main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-img-container {
+    flex: 1;
+    margin: 0 10px; /* Space between images */
+    position: relative;
+    background-color: white; /* White background for each image container */
+    border-radius: 10px; /* Optional: adds rounded corners to the image container */
+    overflow: hidden; /* Ensures that the content doesn't overflow */
+}
+
+.carousel-image {
+    height: 200px; /* Set height to 300px */
+    width: 230px;  /* Set width to 500px */
+    object-fit: cover; /* Ensure the image covers the dimensions */
+    border-radius: 30px;
+}
+
+.carousel-content {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.carousel-content p {
+    margin: 0;
+    font-size: 1rem; /* Adjust font size as needed */
+    color: #333; /* Adjust text color if needed */
+}
+
+.oio{
+padding-left: 70px;
+padding-right: 70px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.oio h2{
+    color: yellowgreen;
+}
+.oio h1{
+    color: blue;
+}
+.d-flex h1{
+    color: blue;
+
+}
+
+.d-flex p{
+    padding-left: 40px;
+}
+.d-flex span{
+    color: blue;
+    font-size: 20px;
+}
+
+/* Add these styles to your existing CSS file */
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    width: 50px; /* Width of the buttons */
+    height: 50px; /* Height of the buttons */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 50%; /* Round buttons */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Arrow color */
+    font-size: 24px; /* Size of the arrows */
+    z-index: 1000; /* Ensure buttons are above other content */
+}
+
+.carousel-control-prev {
+    right: 70px; /* Adjust the right position to make space for the next button */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none; /* Remove default background image */
+}
+
+.carousel-control-prev-icon::before {
+    content: '\f053'; /* FontAwesome icon for left arrow */
+    font-family: 'Font Awesome 5 Free'; /* Use Font Awesome for arrows */
+    font-weight: 900; /* Font weight for solid icons */
+}
+
+.carousel-control-next-icon::before {
+    content: '\f054'; /* FontAwesome icon for right arrow */
+    font-family: 'Font Awesome 5 Free'; /* Use Font Awesome for arrows */
+    font-weight: 900; /* Font weight for solid icons */
+}
